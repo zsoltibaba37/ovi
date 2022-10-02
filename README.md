@@ -3,7 +3,7 @@
 
 ## Quotes from hun pm
 
--[find here](https://hu.wikiquote.org/wiki/Orb%C3%A1n_Viktor)
+- [wikiquote.org](https://hu.wikiquote.org/wiki/Orb%C3%A1n_Viktor)
 
 ---
 
