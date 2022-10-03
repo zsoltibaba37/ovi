@@ -18,6 +18,12 @@ int main(int argc, char const *argv[])
 	//------------ Files stuffs ------------
 	std::ifstream myFile(fileName);
 
+	
+	if(!myFile.is_open()){
+		std::cout << "File doesn't exist. Now exit...\n" ;
+		exit(1);
+	}
+
 	std::string l;
 	while (std::getline(myFile, l)){
 		lines.push_back(l);
@@ -27,7 +33,7 @@ int main(int argc, char const *argv[])
 		//------------ Choose ------------
 		int s;
 		for (int i=0; i < dates.size(); i++ ){
-			std::cout << i << ". " << dates[i] << "\n";
+			std::cout << i+1 << ". " << dates[i] << "\n";
 		}
 		std::cout << question;
 		std::cin >> s;
