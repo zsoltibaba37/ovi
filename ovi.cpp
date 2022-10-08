@@ -50,6 +50,13 @@ int main()
 		lines.push_back(line);
 		lineNumber++; // store all line number
 	}
+	if (dates.size() == 0)
+	{
+		std::cout << RED << "\nThe file is not well formatted. Now exit...\n";
+		std::cout << RESET;
+		exit(1);
+	}
+
 	//------------ END Read lines and dates ------------
 
 	// -------------------
