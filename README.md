@@ -7,8 +7,9 @@
 
 ### Version
 
-- Big modification. Now it takes the data from the ovi.txt file.
+- Added file format check.
+- Big modification. Now it takes all data from the ovi.txt file. (Dates and quotes)
 
 ---
 
-2022-10-07
+2022-10-08
